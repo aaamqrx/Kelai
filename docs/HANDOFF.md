@@ -14,6 +14,7 @@
 - AI 建立文档、项目配置与最小 Python 包入口；未实现业务逻辑。
 - 设计共享核心、学校适配器、持久化任务、后台 worker 和多个操作入口。
 - 已设计模拟、真实教务、桌面、Web 和部署验收，尚未运行功能验收。
+- 已建立并上传公开 GitHub 仓库：https://github.com/aaamqrx/Kelai；main 跟踪 origin/main。
 
 ## 文件职责
 - README.md：项目说明与文档导航。
@@ -38,8 +39,9 @@
 - 云端是否可达教务系统、是否支持所需会话认证尚未验证。
 - PySide6、FastAPI、网络客户端、pytest 均未安装/兼容性验证。
 - 无桌面界面、业务测试、真实教务验收、安装包或 Web 部署。
-- 已建立本地 Git 仓库，默认分支 main；用户已授权创建 aaamqrx/Kelai 公开仓库并上传当前项目。
-- 本地 .gitignore 已实际验证排除虚拟环境、运行数据和凭据目录；远程创建与推送结果待本轮验证后补充。
+- 仓库为 public，GitHub 仓库 ID 为 1403158202；初始版本 1186f9f 已推送，并用 git ls-remote 核对一致。
+- 本地 .gitignore 已实际验证排除虚拟环境、运行数据和凭据目录；当前版本管理范围为 9 个项目文件。
+- 后续提交以实际 git status、git log 和远程 main 为准；不要只依赖文档中的初始版本号。
 - 已通过 TOML 解析、src 包导入、Markdown 内部链接与围栏检查；未安装依赖或运行产品功能。详细结果见 docs/VALIDATION.md。
 
 ## 授权边界

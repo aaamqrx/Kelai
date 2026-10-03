@@ -83,4 +83,9 @@
 - 已验证：本地仓库初始化成功，默认分支 main，提交身份已有配置。
 - 已验证：git check-ignore 排除 .venv/、.env、data/、logs/、secrets/、playwright/.auth/。
 - 审查范围：9 个已知源码、配置和 Markdown 文件；凭据格式扫描未发现私钥或常见令牌格式。
-- 远程仓库创建、推送与提交一致性验证结果在实际执行后补充。
+- 已创建：https://github.com/aaamqrx/Kelai，visibility=public，仓库 ID 1403158202。
+- 已推送初始版本：1186f9f6ac9ac04c5610899e650ffbed8ebf21bc；main 已跟踪 origin/main。
+- 已验证：git ls-remote 返回的 main 提交与本地 HEAD 一致；初始推送后工作区干净。
+- 远程包含 9 个预期项目文件；.venv、运行数据和凭据目录未纳入版本管理。
+- GitHub 认证复用本机 Git Credential Manager，凭据仅用于 GitHub 官方请求，未写入文件或输出。
+- 上传内容为设计文档与最小包骨架，业务功能、真实教务和部署仍未验证。
